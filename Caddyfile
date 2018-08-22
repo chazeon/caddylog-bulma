@@ -1,0 +1,8 @@
+0.0.0.0:80
+
+ext .md
+
+markdown /blog {
+	template blog templates/blog.html
+	template index templates/index.html
+}
